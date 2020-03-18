@@ -1,0 +1,38 @@
+@charset "ISO-8859-1";
+
+h1 {
+  color: #ffffff;
+  font-family: verdana;
+  font-size: 400%;
+}
+
+body {
+  	padding-bottom: 50px;
+  	padding-left: 50px;
+  	padding-right: 50px;
+  	background-image: url(images/bookbackground.jpg);
+}
+
+table{
+	
+	border: 1px solid black;
+	width:100%;
+}
+
+th{
+  color: black;
+  font-size:100%;
+}
+
+tr{
+	color:black;
+	background-color:white;
+}
+
+tr:hover {
+    background-color: #e0e2e4;
+}
+
+td{
+	text-align:center;
+}

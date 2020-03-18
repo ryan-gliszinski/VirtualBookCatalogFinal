@@ -1,0 +1,65 @@
+@charset "ISO-8859-1";
+
+h1 {
+  color: #ffffff;
+  font-family: verdana;
+  font-size: 400%;
+}
+
+body {
+  	padding-bottom: 50px;
+  	padding-left: 50px;
+  	padding-right: 50px;
+  	background-image: url(images/bookbackground.jpg);
+}
+
+table{
+	
+	border: 1px solid black;
+	width:25%;
+	
+	
+}
+
+th{
+  color: black;
+  font-size:100%;
+}
+
+tr{
+	color:black;
+	background-color: #dbceb0;
+}
+
+tr:hover {
+    background-color: #e0e2e4;
+}
+
+td{
+	text-align:center;
+}
+
+.saveButton {
+	box-shadow:inset 0px 0px 0px -50px #276873;
+	background:linear-gradient(to bottom, #81ebba 5%, #7e6cb8 100%);
+	background-color:#81ebba;
+	border-radius:6px;
+	display:inline-block;
+	cursor:pointer;
+	color:#000000;
+	font-family:Verdana;
+	font-size:12px;
+	font-weight:bold;
+	padding:10px 21px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #3d768a;
+}
+.saveButton:hover {
+	background:linear-gradient(to bottom, #7e6cb8 5%, #81ebba 100%);
+	background-color:#7e6cb8;
+}
+.saveButton:active {
+	position:relative;
+	top:1px;
+}
+

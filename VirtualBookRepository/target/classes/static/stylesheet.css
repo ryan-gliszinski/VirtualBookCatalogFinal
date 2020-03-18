@@ -1,0 +1,113 @@
+@charset "ISO-8859-1";
+
+h1 {
+  color: #ffffff;
+  font-family: verdana;
+  font-size: 400%;
+}
+
+body {
+  	padding-bottom: 50px;
+  	padding-left: 50px;
+  	padding-right: 50px;
+  	background-image: url(images/bookbackground.jpg);
+}
+
+table{
+	
+	border: 1px solid black;
+	width:100%;
+}
+
+th{
+  	color: black;
+  	font-size:100%;
+}
+
+tr{
+	color:black;
+	background-color:white;
+}
+
+tr:hover {
+    background-color: #e0e2e4;
+}
+
+td{
+	text-align:center;
+}
+
+.button {
+    box-shadow:inset 2px 2px 9px -6px #91b8b3;
+	background:linear-gradient(to bottom, #768d87 5%, #6c7c7c 100%);
+	background-color:#768d87;
+	border-radius:3px;
+	border:1px solid #566963;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:28px;
+	font-weight:bold;
+	padding:18px 46px;
+	text-decoration:none;
+}
+
+.myButton {
+	box-shadow:inset 0px 39px 0px -24px #e67a73;
+	background-color:#e4685d;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:10px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myButton:hover {
+	background-color:#eb675e;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.myEditButton {
+	box-shadow:inset 0px 39px 0px -24px #476e9e;
+	background-color:#476e9e;
+	border-radius:4px;
+	border:1px solid #ffffff;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size:10px;
+	font-weight:bold;
+	padding:10px 18px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #b23e35;
+}
+.myEditButton:hover {
+	background-color:#476e9e;
+}
+.myEditButton:active {
+	position:relative;
+	top:1px;
+}
+
+#myInput {
+  background-image: url('/css/searchicon.png'); /* Add a search icon to input */
+  background-position: 10px 12px; /* Position the search icon */
+  background-repeat: no-repeat; /* Do not repeat the icon image */
+  width: 80%; /* Full-width */
+  font-size: 16px; /* Increase font-size */
+  padding: 12px 20px 12px 40px; /* Add some padding */
+  border: 1px solid #ddd; /* Add a grey border */
+  margin-bottom: 12px; /* Add some space below the input */
+}
+
+
